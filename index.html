@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header" id="js-header">
         <div class="container">
             <div class="menu-wrapper clearfix">
                 <div class="logo">
                     <a href="#">Golden</a>
                 </div>
-                <nav class="main-nav">
+                <nav class="main-nav" id="js-nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#js-header">Home</a></li>
+                        <li><a href="#js-service">Service</a></li>
+                        <li><a href="#js-portfolio">Portfolio</a></li>
+                        <li><a href="#js-about-us">About</a></li>
+                        <li><a href="#js-contacts">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="slide">
                 <p class="discription">Welcome To Our Studio!</p>
                 <h1 class="main-title">It`s nice to meet you</h1>
-                <a href="#" class="btn btn-header">Tell me more</a>
+                <a href="#" class="btn btn-header" id="js-tell-me">Tell me more</a>
             </div>
         </div>
     </header>
     
     <main>
-        <section class="service">
+        <section class="service" id="js-service">
             <div class="container clearfix">
                 <h2 class="title-section">Service</h2>
                 <p class="desc-section">Proin iaculis purus consequat sem cure. </p>
@@ -61,7 +61,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="js-portfolio">
             <div class="container">
                 <h2 class="title-section">Our Portfolio</h2>
                 <p class="desc-section">Proin iaculis purus consequat sem cure. </p>
@@ -110,7 +110,7 @@
             </div>
         </section>
         
-        <section class="about-us">
+        <section class="about-us" id="js-about-us">
             <div class="container">
                 <h2 class="title-section">About-Us</h2>
                 <p class="desc-section">Proin iaculis purus consequat sem cure. </p>
@@ -196,7 +196,7 @@
             </div>
         </section>
         
-        <section class="team">
+        <section class="team" id="js-team">
             <div class="container">
                 <h2 class="title-section">Our amazing team</h2>
                 <p class="desc-section">Proin iaculis purus consequat sem cure. </p>
@@ -237,7 +237,7 @@
             </div>
         </section>
         
-        <section class="feed-back">
+        <section class="feed-back" id="js-contacts">
             <div class="container">
                 <h2 class="title-section contact">Contact Us</h2>
                 <p class="desc-section">Proin iaculis purus consequat sem cure. </p>
@@ -254,5 +254,8 @@
         </section>
     </main>
     
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>
